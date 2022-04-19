@@ -1,0 +1,309 @@
+.welc{
+background: #ADA996;  
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+height: 21%;
+padding: 3px;
+padding-top: 5px;
+}
+.about{
+    width: 83.1%;
+    position: fixed;
+       margin-left: 17%;
+       overflow-y: scroll;
+       height: 100%;
+
+}
+@media all and (max-width :554px) {
+    .front{
+margin-top: 40%;
+  }
+}
+@media all and (max-width :525px) {
+    .front{
+margin-top: 50%;
+  }
+}
+@media all and (max-width :440px) {
+    .front{
+margin-top: 64%;
+  }
+  .welc{
+      height: 20%;
+  }
+
+}
+
+@media all and (max-width :379px) {
+    .front{
+margin-top: 173%;
+  }
+  .welc{
+      height: 23%;
+  }
+}
+@media all and (max-width :1260px) {
+    .about{
+width: 100%;  
+ margin-inline: -0.01%;
+  }
+  
+  .welc{
+      margin-top:80px;
+  }
+
+}
+@media all and (max-width :554px) {
+     .ss {
+margin-right: 30px;
+margin-right: 300%;
+width: 200px;
+padding-inline:  10%;
+  }
+.dinam h4 {
+margin-left: 300%;
+padding-inline:  17%;
+
+}
+}
+@media all and (max-width :420px) {
+     .ss {
+
+padding-inline:  6%;
+  }
+.dinam h4 {
+margin-left: 300%;
+padding-inline:  9%;
+
+}
+.back{
+    margin-left: 300%;
+max-width: 136%;
+margin-right: 100px;
+
+}
+}
+@media all and (max-width :376px) {
+     .ss {
+         margin-inline:30px;
+         
+  }
+  .front{
+      margin-top: 150%;
+  }
+  .fast{
+               margin-inline:10px;
+
+  }
+  .dinam{
+      max-width: 160%;
+      min-width: 152%;
+  }
+  .service{
+      width: 40%;
+  }
+  
+.service h4 {
+margin-left: 300%;
+padding-inline:  27%;
+
+}
+.service p {
+margin-left: 300%;
+padding-inline:  27%;
+
+}
+}
+@media all and (max-width :950px) {
+     .mg {
+ margin-right: 29.01%;
+ padding-right: 10%;
+  }
+  
+   .service p {
+width: 100%;  
+ padding-left: 10%;
+  }
+   .service h4 {
+width: 100%;  
+ padding-left: 14%;
+  }
+}
+@media all and (max-width :1025px) {
+    .service h4 {
+width: 100%;  
+ margin-left: 7.01%;
+  }
+   .service p {
+width: 100%;  
+ margin-left: 7.01%;
+  }
+}
+@media all and (max-width :590px) {
+   .service{
+display: block;
+  }
+  .skil{
+    height: 370px;
+    margin-top: 13px;
+    display: block;
+        padding-top: 58px;
+    max-width: 100%;
+flex-direction: column;
+}
+.back{
+    width: 90%;
+    margin-left: 40%;
+    margin-top: 20px;
+    
+}
+.others{
+    width: 90%;
+        margin-left: 6%;
+            margin-top: 20px;
+
+
+    
+    
+}
+.front{
+    width: 90%;
+        margin-left: 6%;
+
+    
+    
+}
+
+}
+@media all and (min-width:590px) and (max-width:970px) {
+   .service{
+display: block;
+  }
+  .skil{
+    height: 370px;
+    display: flex;
+    margin-top: 13px;
+        padding-top: 53px;
+
+    max-width: 100%;
+flex-direction: column;
+}
+.front{
+        width: 40%;
+margin-inline: 49%;
+position: absolute;
+}
+.back{
+    position: absolute;
+            width: 40%;
+          
+
+}
+.others{
+     position: absolute;
+            width: 40%;
+            margin-top: 50%;
+            margin-inline: 26%;
+
+}
+  
+}
+@media all and (min-width:590px) and  (max-width :918px) {
+    .others{
+     position: absolute;
+            width: 40%;
+            margin-top: 60%;
+            margin-inline: 26%;
+
+}}
+@media all and (min-width:590px) and  (max-width :790px) {
+    .others{
+     position: absolute;
+            width: 40%;
+            margin-top: 70%;
+            margin-inline: 26%;
+
+}
+}
+@media all and (min-width:590px) and  (max-width :666px) {
+    .others{
+     position: absolute;
+            width: 40%;
+            margin-top: 80%;
+            margin-inline: 26%;
+
+}
+}
+.fast{
+    flex: 1;
+    
+}
+.dinam{
+    flex: 1;
+}
+.mg{
+   margin-inline: 32%;
+    
+}
+.res{
+    flex: 1;
+}
+h4{
+    text-align: center;
+}
+.bre{
+margin-inline: 43.7%;
+width: 170px;
+}
+.service{
+    height: 200px;
+    display: flex;
+    padding-top: 13px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.front {
+    background-color: #f7f8fa;
+    flex: 3;
+        box-shadow: 0 0.125rem 0.25rem black !important;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.back{
+    background-color: #f7f8fa;
+    flex: 3;
+        box-shadow: 0 0.125rem 0.25rem black !important;
+        margin-inline: 25px;
+        display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.others{
+    background-color: #f7f8fa;
+    flex: 3;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+            box-shadow: 0 0.125rem 0.25rem black !important;
+
+}
+.skil{
+    height: 370px;
+    display: flex;
+    margin-top: 13px;
+        padding-top: 53px;
+
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10.3%;
+
+    
+}

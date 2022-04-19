@@ -1,0 +1,108 @@
+.contact{
+     width: 83.1%;
+     position: fixed;
+         margin-left: 17%;
+
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.welco{
+background: #ADA996;  
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+height: 123%;
+padding: 3px;
+padding-top: 10px;
+
+}
+@media all and (max-width :1260px) {
+    .contact{
+width: 100%;  
+ margin-inline: -0.01%;
+  }
+  
+  .welco{
+      margin-top:80px;
+  }
+
+}
+@media all and (max-width :1200px) {
+    .container{
+max-width: 550%;  
+ margin-inline: -10.01%;
+  }
+}
+@media all and (max-width :1070px) {
+    .container{
+width: 120%;  
+ margin-inline: -10.01%;
+  }
+}
+@media all and (max-width :1005px) {
+    .container{
+width: 118%;  
+ margin-inline: -10.01%;
+  }
+}
+@media all and (max-width :910px) {
+    .container{
+width: 138%;  
+ margin-inline: -20.01%;
+  }
+}
+@media all and (max-width :730px) {
+    .container{
+width: 138%;  
+ margin-inline: -40.01%;
+  }
+}
+@media all and (max-width :569px) {
+    .container{
+width: 158%;  
+ margin-inline: -40.01%;
+  }
+}
+@media all and (max-width :519px) {
+    .container{
+width: 178%;  
+ margin-inline: -70.01%;
+  }
+}
+@media all and (max-width :430px) {
+    .container{
+width: 198%;  
+ margin-inline: -80.01%;
+  }
+}
+@media all and (max-width :660px) {
+    .gh{
+margin-inline: 45%;
+width: 30%;
+  }
+}
+@media all and (max-width :386px) {
+    .container{
+width: 228%;  
+ margin-inline: -93.01%;
+  }
+}
+.soci{
+    display: flex;
+    justify-content: space-around;
+     margin: auto;
+     width: 320px;
+}
+.soci a{
+    color: black;
+    margin-top: 15px;
+}
+.soci a :hover{
+       color: rgb(104, 30, 8);
+
+}
+.form{
+    margin-inline: 160px;
+    padding-left:190px ;
+    height: 309px;
+}

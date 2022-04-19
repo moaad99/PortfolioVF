@@ -1,0 +1,66 @@
+.sidebar{
+    background-color: rgb(224, 220, 213);
+    height:100%;
+    overflow:auto;
+    width: 301px;
+    padding:24px;
+    padding-left: 33px;
+       
+    z-index: 1;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link :hover{
+    color: rgb(104, 30, 8);
+}
+h3{
+    margin-top: 15px;
+       margin-inline: 3%;
+
+   
+}
+
+
+h7 p1{
+   margin-inline: 5%;
+
+}
+h7 p{
+   margin-inline: 30%;
+
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    color: black;
+    margin-top: 15px;
+}
+.social a :hover{
+       color: rgb(104, 30, 8);
+
+} 
+
+.por{
+    margin-top: 20px;
+     margin-inline: 20%;
+     display: flex;
+     cursor: pointer;
+}
+.por:hover{
+        color: rgb(104, 30, 8);
+
+
+}
+.por h5{
+    font-size: 19px;
+}
+.menu{
+    height: 200px;
+        margin-top: 30px;
+
+   
+}

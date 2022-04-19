@@ -1,0 +1,187 @@
+.welcom{
+background: #ADA996;  
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+height: 11%;
+padding: 30px;
+padding-top: 40px;
+
+}
+.portfolio{
+    width: 82%;
+     
+       margin-left: 18.03%;
+   position: absolute;
+   padding-left: 1%;
+    
+
+}
+@media all and (max-width :1260px) {
+    .card{
+        max-width: 95%;
+        margin-inline: 20px;
+  }
+  .welcom{
+      margin-top:80px;
+  }
+}
+@media all and (min-width :1261px) and (max-width :1400px)  {
+    .bt{
+        padding-inline: 5px;
+        max-width: 10%;
+         min-width: 30%;
+         display: block;
+         flex-direction: column;
+         padding-top: 50px;
+  }
+  
+}
+@media all and (max-width :1200px) {
+    .card{
+        width: 100%;
+margin-inline: 30%;
+  }
+}
+@media all and (max-width :1070px) {
+    .card{
+       display: block;
+       margin-inline: 18%;
+  }
+  .welcom{
+      width: 113.3%;
+             margin-inline: -2%;
+
+  }
+  .portfolio{
+      max-width: 90%;
+  }
+}
+@media all and (max-width :767px) {
+    .card{
+        width: 40%;
+margin-inline: 30%;
+  }
+}
+@media all and (max-width :730px) {
+    .card{
+        width: 40%;
+margin-inline: 55%;
+  }
+}
+@media all and (max-width :569px) {
+    .portfolio{
+        max-width: 83%;
+  }
+  .welcom{
+      width: 120.8%;
+  }
+  .card{
+      margin-inline: 34%;
+  }
+}
+@media all and (max-width :519px) {
+    .portfolio{
+        max-width: 83%;
+  }
+  .welcom{
+      width: 120.8%;
+  }
+  .card{
+      margin-inline: 44%;
+  }
+}
+@media all and (max-width :386px) {
+    .portfolio{
+        max-width: 70%;
+  }
+  .welcom{
+      width: 145.6%;
+  }
+  .card{
+      margin-inline: 44%;
+       
+
+  }
+  .btn{
+      max-width: 100px;
+            min-width: 180px;
+
+  }
+}
+@media all and (min-width :570px) and (max-width :654px){
+    .card{
+        margin-inline: 36%;
+        max-width: 30%;
+min-width: 60%;
+    }
+  
+}
+@media all and (min-width :654px) and (max-width :730px){
+    .card{
+        margin-inline: 40%;
+        max-width: 30%;
+min-width: 40%;
+    }
+  
+}
+@media all and (max-width :654px) {
+    .bt{
+        width: 40%;
+display: block;
+flex-direction: column;
+padding-top: 60px;
+margin-left: 410%;
+  }
+    .card{
+        max-width: 84%;
+         min-width: 56%;
+  }
+  .portfolio{
+    width: 62%;
+     
+       margin-left: 18.03%;
+   position: absolute;
+   padding-left: 1%;
+    
+
+}
+
+}
+@media all and (max-width :1260px) {
+    .portfolio{
+width: 100%;  
+ margin-inline: -0.01%;
+  }
+}
+
+img{
+    height: 210px;
+}
+ .bt{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    height: 10px;
+    margin-inline:18%;
+    
+}
+.btn{
+       height: 40px;
+    margin-bottom: 20px;
+
+}
+.card{
+    background-color: #fafafa;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+    
+  .container{
+      padding: 1%;
+      padding-left: 3%;
+  }
